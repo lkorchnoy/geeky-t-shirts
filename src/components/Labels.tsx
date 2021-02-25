@@ -140,7 +140,7 @@ function PackingList({ order }: { order: SnipCartOrder }) {
         </h3>
       </ol>
       <div className="label-footer">
-        <p>Thank You &times; You are a good dev &times; Wes Bos</p>
+        <p>Thank You &times; You are a good dev &times; Geeky T-shirts</p>
       </div>
     </LabelStyles>
   );
