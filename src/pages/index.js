@@ -1,4 +1,12 @@
-import * as React from "react"
+import React from "react"
+
+/* const IndexPage = () => {
+  return (
+<div style={{ color: `purple` }}>
+  <h1>Welcome to Geeky T-Shirts</h1>
+  </div>
+  );
+} */
 
 // styles
 const pageStyles = {
