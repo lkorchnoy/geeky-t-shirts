@@ -2,6 +2,16 @@ module.exports = {
   siteMetadata: {
     title: "<Geeky T-Shirts/>",
   },
+  module.exports = {
+    plugins: [
+      {
+        resolve: 'gatsby-plugin-snipcart',
+        options: {
+          apiKey: 'YOUR_SNIPCART_KEY'
+        }
+      }
+    ]
+  },
   plugins: [
     {
       resolve: "gatsby-plugin-google-analytics",
