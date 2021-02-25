@@ -4,6 +4,11 @@ module.exports = {
   },
   module.exports = {
     plugins: [
+      'gatsby-theme-shop'
+    ]
+  },
+  module.exports = {
+    plugins: [
       {
         resolve: 'gatsby-plugin-snipcart',
         options: {
