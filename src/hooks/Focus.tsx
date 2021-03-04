@@ -6,6 +6,6 @@ export function useFocus(ref: React.RefObject<HTMLInputElement>) {
       if (ref?.current && window.scrollY < 200) {
         ref?.current?.focus();
       }
-    }, 1000);
+    }, 3000);
     return () => clearInterval(interval);
   }, [ref]);
